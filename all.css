@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    font-family: DFKai-sb;
+    width: 100%;
+    height: 300px;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bmi {
+    padding-top: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #424242;
+}
+
+.img-bmi img {
+    height: 100%;
+}
+
+.wrap .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap .form p {
+    font-size: 18px;
+    color: #ffd366;
+    padding-bottom: 5px;
+}
+
+.wrap .form input {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 10px;
+    border: none;
+}
+
+.height {
+    padding-bottom: 10px;
+}
+
+.result {
+    margin-left: 25px;
+    margin-top: 27px;
+    width: 119px;
+    height: 119px;
+    background-color: #424242;
+    border: #ffd366 solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #ffd366;
+    cursor: pointer;
+}
+
+.result:hover {
+    box-shadow: 0px 1px 6px 3px #ffc431;
+    background-color: rgb(149, 148, 143);
+}
+
+.result:active {
+    background-color: #dea921;
+}
+
+.green {
+    width: 123px;
+    height: 123px;
+    margin-left: 25px;
+    margin-top: 27px;
+    border: 6px solid;
+    border-color: #86d73e;
+    border-radius: 50%;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #86d73e;
+    position: relative;
+}
+
+.green p {
+    font-size: 32px;
+}
+
+.green span {
+    font-size: 14px;
+}
+
+.green .img {
+    position: absolute;
+    right: -3px;
+    bottom: 6px;
+    width: 30px;
+    height: 30px;
+    background-color: #86d73e;
+    border-radius: 50%;
+    line-height: 39px;
+}
+
+.bt {
+    margin-top: 48px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.bt button {
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 30px;
+    border: 0;
+    background: #646464;
+    color: #b1b1b1;
+    cursor: pointer;
+}
+
+.bt button:hover {
+    color: rgb(251, 251, 251);
+    box-shadow: 0px 1px 6px 3px white;
+}
+
+.record {
+    font-family: Microsoft JhengHei;
+    width: 100%;
+    min-height: 800px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.record .title {
+    font-size: 24px;
+    padding: 50px;
+}
+
+.record .content {
+    padding: 5px 0;
+    max-width: 750px;
+    height: 62px;
+    margin: 0 auto 16px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+}
+
+.record .smallBox {
+    width: 7px;
+    height: 62px;
+    background-color: #86d73f;
+    margin: 0;
+}
+
+.record .content h1 {
+    /* display: inline; */
+    font-size: 20px;
+}
+
+.record .content span {
+    font-size: 12px;
+}
+
+.record .content samp {
+    padding-left: 7px;
+    font-size: 20px;
+}
+
+.record .contentValue {
+    display: inline-block;
+}
+
+.record .contentValue span {
+    padding-right: 30px;
+}
+
+.date {
+    padding-right: 10px;
+}
+
+.record a {
+    text-decoration: none;
+    color: white;
+    padding: 0 3px;
+    margin-left: 5px;
+    background-color: gray;
+    text-align: center;
+}
